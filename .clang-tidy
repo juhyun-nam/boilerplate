@@ -1,0 +1,15 @@
+---
+Checks: '
+  cert-*,
+  clang-analyzer-*,
+  cppcoreguidelines-*,
+  google-*,
+  misc-*,
+  modernize-*'
+  performance-*,
+  readability-*,
+  -modernize-use-trailing-return-type,
+'
+WarningsAsErrors: ''
+FormatStyle:     file
+...
